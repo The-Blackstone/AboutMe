@@ -11,3 +11,60 @@ html {
   background-size: cover;
   background-attachment: scroll;
 }
+
+.about_me {
+  background-color: #212529;
+  padding: 25px 0px 25px 0px;
+  margin: auto;
+  border-radius: 15px 50px;
+  margin-top: 150px;
+}
+
+.about_me-text_head {
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.about_me-image {
+  box-shadow: 5px 5px 10px black;
+}
+
+.about_me-wrapper__info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 40px;
+}
+
+.about_me-wrapper__image {
+  display: flex;
+  justify-content: center;
+}
+
+.about_me-text{
+  text-align: center;
+  color: whitesmoke;
+  font-size: large;
+}
+
+hr {
+  margin: 20px auto;
+  color: linear-gradient(315deg, #c02425 0%, #f0cb35 25%);
+  border: 3px solid #00771A;
+  max-width: 300px;
+  opacity: 1;  
+}
+
+
+#awards{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+
+.img-fluid{
+  height: auto;
+  max-width: 100%;
+}
