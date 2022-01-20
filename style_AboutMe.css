@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(Images/about_me.jpg) no-repeat center center fixed; 
+
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,20 +14,22 @@ html {
 
 .about_me {
   background-color: #212529;
-  padding: 25px 0px 25px 0px;
+  padding: 25px 10px 30px 0px;
   margin: auto;
-  border-radius: 15px 50px;
+  border-radius: 25px 25px;
   margin-top: 150px;
+}
+
+.jumbotron {
+  background: url(Images/about_me.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  padding: 1rem 5rem;
 }
 
 .about_me-text_head {
   text-align: center;
   font-size: 3rem;
   color: whitesmoke;
-}
-
-.about_me-image {
-  box-shadow: 5px 5px 10px black;
 }
 
 .about_me-wrapper__info {
@@ -41,6 +43,15 @@ html {
 .about_me-wrapper__image {
   display: flex;
   justify-content: center;
+}
+
+.about_me-image {
+  box-shadow: 5px 5px 10px black;
+}
+
+.img-fluid{
+  height: auto;
+  max-width: 100%;
 }
 
 .about_me-text{
@@ -57,14 +68,64 @@ hr {
   opacity: 1;  
 }
 
+.btn-resume{
+  width: 100%;
+  margin-top: 30px;
+}
+
 
 #awards{
-  display: flex;
-  align-items: center;
-  height: 50vh;
+  height: auto;
+  background-image: url("Images/about_me_Achivements.jpg");
+  background-size: cover;
+  color: whitesmoke;
 }
 
-.img-fluid{
-  height: auto;
-  max-width: 100%;
+.Eagle_Scout, .Sterling_Scholar{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
 }
+
+.awards-wrapper__info{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 40px;
+}
+.b-example-divider {
+  height: 3rem;
+  background: url(Images/about_me.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
+
+@media (max-width: 576px) { 
+
+  /* #intro {
+    height: 200vh;
+  } */
+
+  /* .jumbotron {
+    padding: 1rem 1rem;
+  } */
+
+}
+
+@media (max-width: 921px) { 
+
+  #intro {
+    height: auto;
+  }
+
+  .jumbotron {
+    padding: 1rem 1rem;
+  }
+
+}
+
+
+
