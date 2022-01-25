@@ -3,13 +3,13 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-
+  background: url(Images/about_me.jpg) no-repeat center center fixed; 
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
 }
 
 .about_me {
@@ -18,11 +18,15 @@ html {
   margin: auto;
   border-radius: 25px 25px;
   margin-top: 150px;
+  margin-bottom: 150px;
+  
+}
+
+#intro {
+  height: auto;
 }
 
 .jumbotron {
-  background: url(Images/about_me.jpg) no-repeat center center fixed; 
-  background-size: cover;
   padding: 1rem 5rem;
 }
 
@@ -30,6 +34,7 @@ html {
   text-align: center;
   font-size: 3rem;
   color: whitesmoke;
+  padding-top: 2rem;
 }
 
 .about_me-wrapper__info {
@@ -73,11 +78,15 @@ hr {
   margin-top: 30px;
 }
 
-
-#awards{
+#info{
   height: auto;
+  width: 100%;
   background-image: url("Images/about_me_Achivements.jpg");
   background-size: cover;
+}
+
+#awards, #WorkXP, #eduaction{
+
   color: whitesmoke;
 }
 
@@ -86,6 +95,7 @@ hr {
    flex-direction: column;
    align-items: center;
    text-align: center;
+   padding-bottom: 2rem;
 }
 
 .awards-wrapper__info{
@@ -95,13 +105,11 @@ hr {
   justify-content: center;
   padding: 40px;
 }
-.b-example-divider {
-  height: 3rem;
-  background: url(Images/about_me.jpg) no-repeat center center fixed; 
-  background-size: cover;
+
+.award_image{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-
-
 
 @media (max-width: 576px) { 
 
