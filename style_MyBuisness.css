@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(Images/my_buisness.jpg) no-repeat center center fixed; 
+  background: url(Images/my_buisness.jpg) center center fixed; 
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -66,7 +66,7 @@ html {
 }
 
  .b-example-divider {
-  height: 20rem;
+  height: 10rem;
 }
 
 .fit {
