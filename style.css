@@ -90,6 +90,18 @@ hr {
 }
 
 
+@keyframes blinking {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  51%   { opacity: 1; }
+  100%  { opacity: 1; }
+}
+.change-text:after {
+  content: '_';
+  animation: blinking 1.2s infinite;
+  
+}
+
 @media (max-width: 576px) { 
 
   .content_home {
