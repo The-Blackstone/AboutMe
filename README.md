@@ -1,5 +1,3 @@
-# JoshBunting_Landing_Page
+# This is all there is to know about me!
 
-This is my landing page!
-
-It is open source so if anyone would like to use it for their own projects they may!
+It is open source, so anyone may use it for their own projects!
