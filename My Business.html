@@ -30,31 +30,30 @@
   <!-- Nav Bar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand mb-0 fs-4 text-secondary" href="index.html"><img src="Images/Logo_Only.png" alt="" width="50"
-          height="50" class="d-inline-block align-text-center"> Joshua Bunting</a>
+      <a class="navbar-brand mb-0 fs-4 text-secondary" href="#"><img src="Images/Logo_Only.png" alt="" width="50"
+          height="50" class="d-inline-block align-text-center"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="About Me.html">About Me</a>
+            <a class="nav-link" href="About Me.html">About</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="My Projects.html">My Projects</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link text-light bg-primary rounded active" href="My Business.html">My Business</a>
+            <a class="nav-link text-light bg-primary rounded active" href="My Business.html">Hobbbies / Projects</a>
           </li>
 
         </ul>
         <ul class="navbar-nav ms-auto">
-          <a href="mailto:uniquedragonsare@gmail.com"> <button class="btn btn-success" type="button">Contact
-              Me</button></a>
+         <a href="mailto:uniquedragonsare@gmail.com"> <button class="btn btn-success" type="button">Contact Me</button></a>
         </ul>
       </div>
     </div>
@@ -62,20 +61,45 @@
 
 
   <section id="intro" class="jumbotron">
-    <div class="container about_me">
-      <img class="mainlogo" src="Images/default.png" height="400">
+    <div class="container about_projects">
+      <!-- <img class="mainlogo" src="Images/default.png" height="400"> -->
+      <h1 class="about_projects-text_head">
+        <strong>My Hobbbies and Projects</strong>
+      </h1>
+      <hr>
+      <h2 class="about_projects-text">
+        Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
+      </h2>
+      <h2 class="about_projects-text">
+        ~ Albert Schweitzer
+      </h2>
     </div>
   </section>
 
   <section id="apps">
     <div class="container my_apps">
 
-
       <div class="card mb-3 ms-3" style="max-width: 540px;">
-        <a href="https://play.google.com/store/apps/details?id=com.Jeds_Creation.Roll_a_Ball" class="text-muted">
+        <a href="https://github.com/The-Blackstone/HeyAlfredWakeWord" target="_blank" class="text-muted">
           <div class="row g-0">
             <div class="col-md-4 d-flex justify-content-center">
-              <img src="Images/synthball_Icon.png" class="img-fluid rounded-start fit" alt="SynthBall Logo">
+              <img src="https://www.svgrepo.com/show/373667/homeassistant.svg" class="img-fluid rounded-start fit" alt="Coming Soon">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hey Alfred!</h5>
+                <p class="card-text">A Custon Actuvation word for Home Assistant and how to install it</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="card mb-3 ms-3" style="max-width: 540px;">
+        <a href="https://play.google.com/store/apps/details?id=com.Jeds_Creation.Roll_a_Ball" target="_blank" class="text-muted">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex justify-content-center">
+              <img src="https://www.publicdomainpictures.net/pictures/310000/velka/periwinkle-blue-circle.png" class="img-fluid rounded-start fit" alt="SynthBall Logo">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -88,18 +112,16 @@
         </a>
       </div>
 
-
       <div class="card mb-3 ms-3" style="max-width: 540px;">
         <a href="#" class="text-muted">
           <div class="row g-0">
             <div class="col-md-4 d-flex justify-content-center">
-              <img src="Images/patch-question.svg" class="img-fluid rounded-start fit" alt="Coming Soon">
+              <img src="https://pngimg.com/uploads/github/github_PNG84.png" class="img-fluid rounded-start fit" alt="Coming Soon">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Coming Soon!</h5>
-                <p class="card-text">Another App is on its way! So take a seat and hold back until more details are released!</p>
-                <p class="card-text"><small class="text-muted">? ? ? ? ?</small></p>
+                <h5 class="card-title">My Github</h5>
+                <p class="card-text">View My Github for the latest on what i am helping with</p>
               </div>
             </div>
           </div>
@@ -118,11 +140,12 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="https://github.com/The-Blackstone"><i class="bi bi-github"
+        <a href="#" target="_blank"class="text-muted">
+      <li class="ms-3"><a class="text-muted" href="https://github.com/The-Blackstone" target="_blank"><i class="bi bi-github"
             style="font-size: 2rem; color: grey;"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/joshua-bunting-635114153/"><i class="bi bi-linkedin"
+      <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/joshblackstone/" target="_blank"><i class="bi bi-linkedin"
             style="font-size: 2rem; color: grey;"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-send"
+      <li class="ms-3"><a class="text-muted" href="#" target="_blank"><i class="bi bi-send"
             style="font-size: 2rem; color: grey;"></i></a></li>
       <li class="ms-3"></li>
     </ul>

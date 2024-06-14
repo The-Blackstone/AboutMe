@@ -51,7 +51,7 @@ html {
 }
 
 .about_me-image {
-  box-shadow: 5px 5px 10px black;
+  border-radius: 10px 24px;
 }
 
 .img-fluid{
