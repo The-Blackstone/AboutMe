@@ -3,13 +3,13 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(Images/my_buisness.jpg) center center fixed; 
+  background: url(Images/my_projects.jpg) no-repeat center center fixed; 
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
 }
 
 #intro {
@@ -84,4 +84,41 @@ html {
   }
 
 
+}
+
+.vl {
+  border-left: 400px solid darkgray;
+  height: 6px;
+  
+}
+
+.about_projects {
+  background-color: #212529;
+  padding: 25px 10px 30px 0px;
+  margin: auto;
+  border-radius: 25px 25px;
+  margin-top: 150px;
+  margin-bottom: 15px;
+  
+}
+
+.about_projects-text_head {
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+  padding-top: 2rem;
+}
+
+.about_projects-text{
+  text-align: center;
+  color: whitesmoke;
+  font-size: large;
+}
+
+hr {
+  margin: 20px auto;
+  color: linear-gradient(315deg, #c02425 0%, #f0cb35 25%);
+  border: 3px solid #00771A;
+  max-width: 300px;
+  opacity: 1;  
 }
