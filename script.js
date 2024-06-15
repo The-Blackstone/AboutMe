@@ -1,4 +1,4 @@
-var words = ['Web Developer','IT Manager','Android Developer'],
+var words = ['Web Developer','Android Developer','IT Manager'],
     currentStep = 0,
     textEl = document.querySelector('.change-text'),
     oldWord = '';
